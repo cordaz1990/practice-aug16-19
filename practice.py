@@ -1,3 +1,18 @@
-print('hello')
-print('world')
-print('')
+>>> t = tuple()
+>>> t 
+()
+
+>>> t = tuple('lupins')
+>>> t
+('l','u', 'p', 'i','n','s')
+
+>>> t = ('a', 'b', 'c', 'd', 'e')
+>>> t[0]
+'a'
+
+>>> t[1:3]
+('b','c')
+
+>>> t = ('A' ,) + t[1:]
+>>> t
+('A', 'b', 'c', 'd', 'e')
